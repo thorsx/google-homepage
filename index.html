@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+#container {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > div {
+    margin-top: 30px;
+}
+
+.rightAlign {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+        a:hover{
+            background-color: gray;
+            border-radius: 50%;
+        }
+        #waffle {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+
+        /*
+        #grid {
+            border-radius: 50%;
+            height: 96px;
+            width: 96px;
+            border: 1px solid red;
+        }
+
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+        }
+
+        .grid-item {
+            background-color: grey;
+        }
+        */
+    </style>
+    <title>TOP GOOGLE Homepage Replica</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="/" class="left">About</a>
+            <a href="/" class="left">Store</a>
+        </div>
+        
+        <div class="rightAlign">
+            <a href="/" class="right">Gmail</a>
+            <a href="/" class="right">Images</a>
+            <a href="/" class="right" id="test">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN0AAADdCAMAAAAIGocoAAAABlBMVEX///9tbW32nYMCAAABsklEQVR4nO3YwQnDUADD0HT/pbuCPyREpc8DCOnq6zIzM/unfY53I+pxWE5I3QzLCambYTkhdTMsJ6RuhuWE1M2wnJC6GZYTUjfDckLqZlhOSN0Mywmpm2E5IXUzLCekboblhNTNsJyQuhmWE1I3w3JC6mZYTkjdDMsJqZthOSF1MywnpG6G5YTUzbCckLoZlhNSN8NyQupmWE5I3SnMzMzMzMzMzMzMzF5d9T6+B5YTUjfDckLqZlhOSN0Mywmpm2E5IXUzLCekboblhNTNsJyQuhmWE1I3w3JC6mZYTkjdDMsJqZthOSF1MywnpG6G5YTUzbCckLoZlhNSN8NyQupmWE5I3QzLCambYTkhdTMsJ6RuhuWE1M2wnJC6GZYTUjfDckJPwMzMzMzMzMzMzMzs1VXv43tgOSF1MywnpG6G5YTUzbCckLoZlhNSN8NyQupmWE5I3QzLCambYTkhdTMsJ6RuhuWE1M2wnJC6GZYTUjfDckLqZlhOSN0Mywmpm2E5IXUzLCekboblhNTNsJyQuhmWE1I3w3JC6mZYTkjdDMsJqZthOSF1pzAzMzP7sX0B4CFcpTwdH7YAAAAASUVORK5CYII=" alt="waffle-icon" height="12px" width="12px">
+        
+            </a>
+            <button>Sign In</button>
+        </div>
+    </nav>
+
+    <div id="container">
+        <div>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div>
+            <input type="text" id="search">
+        </div>
+        <div>
+            <button type="button">Google Search</button>
+            <button type="button">I'm feeling Lucky!</button>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
